@@ -1,0 +1,86 @@
+body{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:#080b4b;
+  font-family: "Stardos Stencil", system-ui;
+}
+p{
+  text-align:center;
+}
+
+.main{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.resizeZone{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding:5px;
+  margin:10px;
+  box-shadow: 2px 0px 9px cyan;
+  border-radius:5px;
+  color:silver;
+  font-size:20px;
+  font-weight:bold;
+  text-shadow: 1px 0px 2px cyan;
+  max-width: 400px;
+
+}
+.sizeButton, .newSizeInput{
+  text-align:center;
+  font-size:16px;
+  font-weight:bolder;
+  padding:10px;
+  margin:5px;
+  box-shadow: 2px 0px 5px cyan;
+  background-color: #080b4b;
+  color:silver;
+  text-shadow: 1px 0px 9px cyan;
+  border-radius:5px;
+}
+.container{
+  box-shadow: 2px 0px 11px silver;
+  display:flex;
+  height:600px;
+  width:600px;
+  flex-direction:column;
+  flex-grow:1;
+  justify-content:space-between;
+}
+.row{
+  display:flex;
+  flex-grow:1;
+}
+.innerDiv{
+  flex:1;
+}
+.innerDiv{
+  box-shadow: 1px 0px 4px cyan;
+  margin:1px;
+}
+h1{
+  color:silver;
+  text-shadow: 1px 0px 5px cyan;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin:5px;
+}
+.sizeContainer{
+  display:flex;
+  justify-content: space-between;
+}
+.footer, .anchor{
+  color:silver;
+  text-shadow: 1px 0px 3px cyan;
+  font-weight: bold;
+  font-size:17px;
+}
+
+.footer{
+  padding:10px;
+
+}
